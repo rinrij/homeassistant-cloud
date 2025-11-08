@@ -1,13 +1,13 @@
 homeassistant:
-  external_url: "https://homeassistant-free.onrender.com"
-  internal_url: "https://homeassistant-free.onrender.com"
+  external_url: "https://homeassistant.up.railway.app"
+  internal_url: "https://homeassistant.up.railway.app"
 
 http:
   use_x_forwarded_for: true
   trusted_proxies:
-    - 127.0.0.1       # localhost IPv4
-    - ::1             # localhost IPv6
-    - 0.0.0.0/0       # alle proxies (Render)
+    - 127.0.0.1
+    - ::1
+    - 0.0.0.0/0
   trusted_networks:
     - 0.0.0.0/0
   server_host: 0.0.0.0
