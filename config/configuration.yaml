@@ -1,6 +1,6 @@
 homeassistant:
-  external_url: "https://homeassistant.up.railway.app"
-  internal_url: "https://homeassistant.up.railway.app"
+  external_url: "https://homeassistant.fly.dev"
+  internal_url: "https://homeassistant.fly.dev"
 
 http:
   use_x_forwarded_for: true
