@@ -1,14 +1,10 @@
 homeassistant:
-  external_url: "https://homeassistant.fly.dev"
-  internal_url: "https://homeassistant.fly.dev"
+  external_url: "https://homeassistant-abcdef-uc.a.run.app"
+  internal_url: "https://homeassistant-abcdef-uc.a.run.app"
 
 http:
   use_x_forwarded_for: true
   trusted_proxies:
-    - 127.0.0.1
-    - ::1
-    - 0.0.0.0/0
-  trusted_networks:
     - 0.0.0.0/0
   server_host: 0.0.0.0
   server_port: 8123
